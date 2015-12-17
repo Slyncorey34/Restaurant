@@ -1,5 +1,7 @@
 #name {
 	color: darkslategrey;
+	width: 24%;
+	margin: 0 auto;
 }
 
 #img_home  {
@@ -26,4 +28,5 @@
 .li_navbar {
 	text-decoration: none;
 	display: inline;
+	padding-right: 15%;
 }
