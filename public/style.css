@@ -7,8 +7,8 @@
 #img_home  {
 	width: 80%;
 	height: 450px;
-	border: 1px solid black;
-	margin: 5% 10%;
+	border: 1px solid lightgrey;
+	margin: 2% 10% 5% 10%;
 }
 
 .menu {
@@ -22,11 +22,81 @@
 	list-style-type: none;
 	width: 100%;
 	margin: 0 auto;
-
 }
 
 .li_navbar {
 	text-decoration: none;
 	display: inline;
 	padding-right: 15%;
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 12%;
+	padding-left: 16%;
+}
+
+#address {
+	padding-right: 43%;
+}
+
+.social {
+	padding-right: 3%;
+
+}
+
+footer {
+	width: 80%;
+	margin-left: 11%;
+	position: fixed;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
