@@ -10,11 +10,17 @@
 	border: 1px solid lightgrey;
 	margin: 2% 10% 5% 10%;
 }
-
+#wrapper{
+	width: 80%;
+	height: 450px;
+	margin: 0 auto;
+	
+}
 .menu {
 	width: 20%;
 	height: 400px;
 	margin-left: 50px;
+	padding-top: 40px;
 }
 
 
