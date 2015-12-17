@@ -3,6 +3,17 @@
 }
 
 #img_home  {
-	width: 60%;
+	width: 80%;
+	height: 450px;
 	border: 1px solid black;
+	margin: 5% 8%;
+}
+
+#ul_navbar {
+	list-style-type: none;
+}
+
+.li_navbar {
+	text-decoration: none;
+	display: inline;
 }
