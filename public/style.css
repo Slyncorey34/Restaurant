@@ -1,3 +1,8 @@
 #name {
 	color: darkslategrey;
 }
+
+#img_home  {
+	width: 60%;
+	border: 1px solid black;
+}
