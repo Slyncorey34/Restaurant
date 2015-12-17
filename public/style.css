@@ -18,9 +18,78 @@
 
 #ul_navbar {
 	list-style-type: none;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .li_navbar {
 	text-decoration: none;
 	display: inline;
+	padding-right: 15%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar {
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 6%;
+}
+
+#address {
+	padding-right: 40%;
+}
+
+.social {
+	padding-right: 3%;
+
+}
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
