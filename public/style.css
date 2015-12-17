@@ -1,12 +1,14 @@
 #name {
 	color: darkslategrey;
+	width: 24%;
+	margin: 0 auto;
 }
 
 #img_home  {
 	width: 80%;
 	height: 450px;
 	border: 1px solid black;
-	margin: 5% 10%;
+	margin: 2% 10% 5% 10%;
 }
 
 .menu {
@@ -58,13 +60,14 @@
 
 
 #navbar {
-	width: 55%;
+	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 6%;
+	margin-bottom: 12%;
+	padding-left: 16%;
 }
 
 #address {
-	padding-right: 40%;
+	padding-right: 43%;
 }
 
 .social {
@@ -74,10 +77,13 @@
 
 footer {
 	width: 80%;
-	margin: 0 auto;
+	margin-left: 11%;
+	position: fixed;
 }
 
-
+a {
+	text-decoration: none;
+}
 
 
 
