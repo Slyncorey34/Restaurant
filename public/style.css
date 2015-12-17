@@ -3,11 +3,25 @@
 }
 
 #img_home  {
-	width: 60%;
+	width: 80%;
+	height: 450px;
 	border: 1px solid black;
+<<<<<<< HEAD
 }
 .menu {
 	width: 20%;
 	height: 400px;
 	margin-left: 50px;
+=======
+	margin: 5% 8%;
+}
+
+#ul_navbar {
+	list-style-type: none;
+}
+
+.li_navbar {
+	text-decoration: none;
+	display: inline;
+>>>>>>> 22079cd814071c99d267ae135daeb55a26cfcc8b
 }
