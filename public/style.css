@@ -55,7 +55,11 @@ html	{
 	margin: 2% 10% 10% 5%;
 	padding-top: 40px;
 }
+.reservations form {
+	font-size: 14px;
+	border-radius: 10px;
 
+}
 
 #ul_navbar {
 	list-style-type: none;
