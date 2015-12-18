@@ -1,28 +1,58 @@
-html{
+html	{
 	font-family: 'Josefin Sans', sans-serif;
 }
-#name {
+
+#name	{
 	color: darkslategrey;
 	width: 24%;
 	margin: 0 auto;
+	margin-top: 3%;
 }
 
 #img_home  {
 	width: 80%;
 	height: 450px;
 	border: 1px solid lightgrey;
-	margin: 2% 10% 5% 10%;
+	margin: 2% 10% 10% 15%;
 }
-#wrapper{
+
+#img_menu	{
+	width: 70%;
+	height: 450px;
+	float: right;
+	margin: 0 0 10% 2%;
+	border: 1px solid lightgrey;
+}
+#img_reservations {
+	width: 70%;
+	height: 450px;
+	float: right;
+	margin: ;
+	border: 1px solid lightgrey;
+}
+#wrapper	{
 	width: 80%;
 	height: 450px;
 	margin: 0 auto;
-	
+	margin-bottom: 5%;
+	margin-top: 2%;
+	border: 1px solid lightgrey;
 }
-.menu {
+
+.menu		{
 	width: 20%;
 	height: 400px;
-	margin-left: 50px;
+	margin: 2% 10% 10% 5%;
+	padding-top: 40px;
+}
+#ul_menu li{
+	list-style-type: none;
+	padding: 4px;
+}
+.reservations {
+	width: 20%;
+	height: 400px;
+	margin: 2% 10% 10% 5%;
 	padding-top: 40px;
 }
 
