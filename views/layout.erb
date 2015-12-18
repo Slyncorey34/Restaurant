@@ -8,27 +8,28 @@
 
 	<body>
 
-		<h1 id="name">Restaurant Name</h1>
+		<h1 id="name"><a href="/">Restaurant Name</a></h1>
 
 		<%= yield %>
 
 
 		<nav id="navbar">
 			<ul id="ul_navbar">
-				<li class="li_navbar"><a href="/">Home</a></li>
-				<li class="li_navbar"><a href="/about">About</a></li>
-				<li class="li_navbar"><a href="/menu">Menu</a></li>
-				<li class="li_navbar"><a href="/reservation">Reservations</a></li>
+				<li class="li_navbar"><a href="/" class="a_nav">Home</a></li>
+				<li class="li_navbar"><a href="/about" class="a_nav">About</a></li>
+				<li class="li_navbar"><a href="/menu" class="a_nav">Menu</a></li>
+				<li class="li_navbar"><a href="/reservation" class="a_nav">Reservations</a></li>
 			</ul>
 		</nav>
 
 		<footer>
-			<a href="" id="address">90 John St, New York, NY 10013</a>
-			<a href="" class="social">Pinterest</a>
-			<a href="" class="social">Instagram</a>
-			<a href="" class="social">Facebook</a>
+			<a href="https://www.google.com/maps/place/90+John+St,+New+York,+NY+10038/@40.7079105,-74.0086719,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25a3d5e32ed2f:0x4e451c2dfdc835d1" id="address" target="_new">90 John St, New York, NY 10013</a>
+			<a href="www.pinterest.com" class="social" target="_new">Pinterest</a>
+			<a href="www.instagram.com" class="social" target="_new">Instagram</a>
+			<a href="www.facebook.com" class="social" target="_new">Facebook</a>
 		</footer>
 
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>

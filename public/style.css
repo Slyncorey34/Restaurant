@@ -7,13 +7,15 @@ html	{
 	width: 24%;
 	margin: 0 auto;
 	margin-top: 3%;
+	display: none;
 }
 
 #img_home  {
-	width: 80%;
+	width: 70%;
 	height: 450px;
 	border: 1px solid lightgrey;
-	margin: 2% 10% 10% 15%;
+	margin: 2% 10% 5% 15%;
+	display: none;
 }
 
 #img_menu	{
@@ -93,8 +95,9 @@ html	{
 #navbar {
 	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 12%;
+	margin-bottom: 8%;
 	padding-left: 16%;
+	display: none;
 }
 
 #address {
@@ -114,12 +117,18 @@ footer {
 
 a {
 	text-decoration: none;
+	color: darkslategrey;
+}
+
+a:hover {
+	color: orange;
 }
 
 #text_box {
 	height: 450px;
 	width: 20%;
 	padding-left: 2%;
+	font-size: 18px;
 }
 
 p#text_box::-webkit-scrollbar {
@@ -145,11 +154,13 @@ p#text_box {
 	padding-top: 5px;
 	padding-left: 5px;
 	overflow-y: scroll;
+	display: none;
  }
  
 #image_about {
  	float: right;
 	top: 10px;	
+	display: none;
  }
  
 #container_about {
