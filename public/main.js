@@ -4,7 +4,22 @@ $(document).ready(function(){
 	$("#navbar").slideDown();
 
 	$("#image_about").fadeIn(3000);
-	$("#text_box").fadeIn();
+	$("#text_box").slideDown(2000);
 
+	$('#img_home').hover(function(){
+		$(this).attr('src', 'images/Zucchini.jpg', 3000);
+	});
+
+	$("#img_home").mouseover(function(){
+		$(this).attr('src', 'images/portabella.png').fadeIn(2000);
+	});
+
+
+	$('body').on('click', function(){
+		$('#container_outer').show();
+		$('body').on('click', function(){
+			$('#container_outer').hide();
+		});
+	});
 
 });
