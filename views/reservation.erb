@@ -2,18 +2,60 @@
 	<img src="images/egg.jpg" id="img_reservations">
 	<div class="reservations">
 		<h3>Reservations</h3>
-		<p>Blank is open from 5:30pm-11:00pm, Tuesdays through Fridays, and 10:00am-9:00pm Saturdays and Sundays. To plan your event in one of our private dining rooms, please <a href="mailto:syncorey@gmail.com?Subject=Reservation" target="_top">email us.</a>
+			<p>
+				Blank is open from 5:30pm-11:00pm, Tuesdays through Fridays, and 10:00am-9:00pm Saturdays and Sundays. 
+			<p>
+				To make a reservation or plan an event for 6 or more people, please <a href="mailto:syncorey@gmail.com?Subject=Reservation" target="_top">email us.</a>
+			</p>
 		</p>
 		<form>
 			<label>
-				<span>Party size</span><input id="party size" type="number" name="party size"/>
+				<span>Party size</span>
+				<select>
+					<option value="1">1</option>
+					<option value ="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+				<p>
 			</label>
 			<label>
 				<span>Date</span><input id="date" type="date" name="date"/>
+			</p>
 			</label>
 			<label>
-				<span>Time</span><input id="time" type="time" name="time"/>
+				<span>Time</span>
+				<select>
+					<option value="10:00am">10:00am</option>
+					<option value ="10:30am">10:30am</option>
+					<option value="11:00am">11:00am</option>
+					<option value="11:30am">11:30am</option>
+					<option value="12:00pm">12:00pm</option>
+					<option value="12:30pm">12:30pm</option>
+					<option value="1:00pm">1:00pm</option>
+					<option value ="1:30pm">1:30pm</option>
+					<option value="2:00pm">2:00pm</option>
+					<option value="2:30pm">2:30pm</option>
+					<option value="3:00pm">3:00pm</option>
+					<option value="3:30pm">3:30pm</option>
+					<option value="4:00pm">4:00pm</option>
+					<option value ="4:30pm">4:30pm</option>
+					<option value="5:00pm">5:00pm</option>
+					<option value="5:30pm">5:30pm</option>
+					<option value="6:00pm">6:00pm</option>
+					<option value="6:30pm">6:30pm</option>
+					<option value="7:00pm">7:00pm</option>
+					<option value ="7:30pm">7:30pm</option>
+					<option value="8:00pm">8:00pm</option>
+					<option value="8:30pm">8:30pm</option>
+					<option value="9:00pm">9:00pm</option>
+					<option value="9:30pm">9:30pm</option>
+					<option value="10:00pm">10:00pm</option>
+					</select>
 			</label>
+			<input type= "submit" name="submit">
 		</form>
 		
 	</div>
