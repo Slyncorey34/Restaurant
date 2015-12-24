@@ -21,5 +21,10 @@ $(document).ready(function(){
 			$('#container_outer').hide();
 		});
 	});
+	$("#submit").on('click', function (){
+		alert("Thank you. We'll get back to you soon!" );
+		event.preventDefault();
+	});
+	
 
 });
