@@ -16,6 +16,10 @@ get '/reservation' do
 erb :reservation
 end
 
+get '/contact' do
+erb :contact
+end
+
 get '/layout' do
 erb :layout
 end
