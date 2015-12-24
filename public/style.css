@@ -189,16 +189,17 @@ p#text_box {
 
 }
 
-#wrapper form{
-	/*width: 550px;
-	height: 200px;*/
+.form  {
 	margin: 0, auto;
 	margin-left: 20%;
-	/*margin-top: 5%;*/
-	border: 1px solid red;
-
+	margin-top: 7%;
+	
 }
 
+#wrapper p{
+	margin-left: 35px;
+	margin-right: 2%;
+}
 
 
 
