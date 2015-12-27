@@ -24,6 +24,3 @@ get '/layout' do
 erb :layout
 end
 
- #post '/sign_in' do
- # erb :contact
- # end 
